@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="-8">
+    <title>Web GIS application</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Leaflet CSS (hilisemaks) -->
+    <link 
+        rel="stylesheet" 
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+</head>
+
+<body>
+
+    <!-- 1. Banner -->
+    <div class="banner">
+        <img src="img/banner.jpg" alt="Banner image">
+    </div>
+
+    <!-- 2. Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="active">Basic Map</a>
+        <a href="#">Choropleth Map</a>
+        <a href="#">Heatmap</a>
+    </nav>
+
+    <!-- 3. Title -->
+    <div class="title">
+        <h1>Web GIS application</h1>
+    </div>
+
+    <!-- 4. Container -->
+    <div class="container">
+
+        <!-- 5. Map -->
+        <div id="map"></div>
+
+    </div>
+
+    <!-- 6. Footer -->
+    <footer class="footer">
+        © Lisete Liiva, Tartu University, 2025
+    </footer>
+
+    <!-- Leaflet JS (hilisemaks) -->
+    <script 
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+    <!-- Sinu JS -->
+    <script src="js/javascript.js"></script>
+
+</body>
+</html>
+
